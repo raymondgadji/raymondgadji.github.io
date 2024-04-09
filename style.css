@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #3d1901;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+#logo{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo img {
+  width: 400px;
+  height: auto;
+}
+
+#logo .avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: #0bcf36 solid 3px;
+  transition: all 0.5s ease-in-out;
+}
+#logo .avatar:hover {
+  border: #f47c00 solid 3px;
+}
+
+nav #avatar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.link {
+  list-style: none;
+  color: #3d1901;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+
+nav .link:hover {
+  color: #f47c00;
+}
+
+ul{
+  font-size: 4vh;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1.5%;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+
+.button.primary {
+  background: #0bcf36;
+  border: 2px solid #0bcf36;
+  height: 10%;
+}
+.button.primary:hover {
+  background: #f47c00;
+  border: 2px solid #f47c00;
+}
+
+
+
+/* Main */
+
+/* Class Emoji */
+
+h1{
+  text-align: center;
+}
+
+.emoji{
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-bottom: 3%;
+}
+
+.emoji .cart{
+  width: 300px;
+  height: 400px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+
+}
+.emoji .cart:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
+.b_cart {
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #3d1901;
+  color: #3d1901;
+  background: white;
+}
+.b_cart:hover{
+  background-color: #3d1901;
+  color: white;
+}
+
+/* ID and Class shopping */
+
+#cocoa{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+}
+
+#cocoa .shopping_cocoa{
+  text-align: center;
+  width: 160px;
+  height: 300px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  padding: 3%;
+}
+
+#shopping .shopping_cocoa:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
+
+
+#shopping img{
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  border: 0.2px solid #3d1901;
+}
+#shopping #choco_powder3 img{
+  border: 0px;
+} 
+
+.b_article {
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #3d1901;
+  color: #3d1901;
+  background: white;
+}
+.b_article:hover{
+  background-color: #3d1901;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f47c00;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+footer:hover {
+  color: #3d1901;
+  background-color: white;
+}
