@@ -138,6 +138,12 @@ h1{
   padding-bottom: 3%;
 }
 
+#chocolate{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+}
+
 #cocoa .shopping_cocoa{
   text-align: center;
   width: 160px;
@@ -149,11 +155,24 @@ h1{
   padding: 3%;
 }
 
-#shopping .shopping_cocoa:hover{
+#cocoa .shopping_cocoa:hover{
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
 }
 
+#chocolate .shopping_chocolate{
+  text-align: center;
+  width: 280px;
+  height: 350px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  padding: 1%;
+}
 
+#chocolate .shopping_chocolate:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
 
 #shopping img{
   width: 120px;
@@ -162,9 +181,30 @@ h1{
   overflow: hidden;
   border: 0.2px solid #3d1901;
 }
+
+#chocolate img{
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  border: 0.2px solid #3d1901;
+}
+
 #shopping #choco_powder3 img{
   border: 0px;
 } 
+
+#shopping #choco_powder5 img{
+  width: 150px;
+  height: 140px;
+  object-fit: cover;
+  overflow: hidden;
+} 
+
+#chocolate2 img{
+  width: 250px;
+  height: 200px;
+}
 
 .b_article {
   border-radius: 4px;
