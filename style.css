@@ -235,21 +235,72 @@ h1{
   display: flex;
   justify-content: center;
   padding-bottom: 3%;
+  padding-top: 5%;
+  gap: 2%;
 }
 
 #pepper{
   display: flex;
   justify-content: center;
   padding-bottom: 3%;
+  padding-top: 5%;
+  gap: 2%;
 }
 
 #chips{
   display: flex;
   justify-content: center;
   padding-bottom: 3%;
+  padding-top: 5%;
+  gap: 2%;
+}
+
+#choco_powder{
+  background: #3d1901;
+  color: white;
+}
+
+#chocolate1{
+  background: #3d1901;
+  color: white;
+}
+
+#attieke1{
+  background: #3d1901;
+  color: white;
+}
+
+#pepper1{
+  background: #3d1901;
+  color: white;
+}
+
+#chips1{
+  background: #3d1901;
+  color: white;
 }
 
 #cocoa #choco_powder{
+  border: 1px solid #3d1901;
+  box-shadow: none;
+}
+
+#chocolate #chocolate1{
+  border: 1px solid #3d1901;
+  box-shadow: none;
+}
+
+#attieke #attieke1{
+  border: 1px solid #3d1901;
+  box-shadow: none;
+}
+
+#pepper #pepper1{
+  border: 1px solid #3d1901;
+  box-shadow: none;
+}
+
+#chips #chips1{
   border: 1px solid #3d1901;
   box-shadow: none;
 }
@@ -271,13 +322,13 @@ h1{
 
 #chocolate .shopping_chocolate{
   text-align: center;
-  width: 10%;
+  width: 15%;
   height: auto;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
-  padding: 1%;
+  padding: 3%;
 }
 
 #chocolate .shopping_chocolate:hover{
@@ -286,13 +337,13 @@ h1{
 
 #attieke .shopping_attieke{
   text-align: center;
-  width: 10%;
+  width: 15%;
   height: auto;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
-  padding: 1%;
+  padding: 3%;
 }
 
 #attieke .shopping_attieke:hover{
@@ -301,13 +352,13 @@ h1{
 
 #pepper .shopping_pepper{
   text-align: center;
-  width: 10%;
+  width: 15%;
   height: auto;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
-  padding: 1%;
+  padding: 3%;
 }
 
 #pepper .shopping_pepper:hover{
@@ -316,13 +367,13 @@ h1{
 
 #chips .shopping_chips{
   text-align: center;
-  width: 10%;
+  width: 15%;
   height: auto;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
-  padding: 1%;
+  padding: 3%;
 }
 
 #chips .shopping_chips:hover{
@@ -330,7 +381,7 @@ h1{
 }
 
 #shopping img{
-  width: 10%;
+  width: 60%;
   height: auto;
   object-fit: cover;
   overflow: hidden;
@@ -338,7 +389,7 @@ h1{
 }
 
 #chocolate img{
-  width: 10%;
+  width: 60%;
   height: auto;
   object-fit: cover;
   overflow: hidden;
@@ -346,7 +397,7 @@ h1{
 }
 
 #attieke img{
-  width: 10%;
+  width: 60%;
   height: auto;
   object-fit: cover;
   overflow: hidden;
@@ -354,7 +405,7 @@ h1{
 }
 
 #pepper img{
-  width: 10%;
+  width: 60%;
   height: auto;
   object-fit: cover;
   overflow: hidden;
@@ -366,59 +417,59 @@ h1{
 } 
 
 #chocolate2 img{
-  width: 10%;
-  height: auto;
+  width: 70%;
+  height: 50%;
 }
 
 #attieke2 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #attieke3 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #attieke4 img{
-  width: 10%;
+  width: 60%;
   height: auto;
 }
 
 #pepper2 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #pepper3 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #pepper4 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #chips2 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #chips3 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
 
 #chips4 img{
-  width: 10%;
+  width: 60%;
   height: auto;
   border: 0px;
 }
