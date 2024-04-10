@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -21,7 +22,7 @@
         </a>
 
         <div id="avatar">
-          <a class="button primary" href="#"> My basket </a>
+          <a class="button primary" href="#shopping"> My basket </a>
           <img class="avatar" src="images\drogba-football-chelsea.jpg" alt="" />
         </div>
       </div>
@@ -32,7 +33,7 @@
             <a class="link" href="#">History</a>
           </li>
           <li>
-            <a class="link" href="#">Cocoa</a>
+            <a class="link" href="#cocoa">Cocoa</a>
           </li>
           <li>
             <a class="link" href="#">Chocolate</a>
@@ -54,49 +55,71 @@
     </nav>
 
     <main>
-      <section class="emoji">
-        <article class="cart">
-          <h3>Our history</h3>
-          <i class="fa-solid fa-store fa-beat fa-2xl"></i>
-          <p>
-            Our store is specialised in handmade products by Ivorian producers.
-            Created in 2024, everything here is direct producers without
-            intermediary in our sales circuit. Therefore all our producers are
-            remunerated by setting the prices of their own products themselves.
-          </p>
-          <a class="b_cart" href="http://">History</a>
-        </article>
 
-        <article class="cart">
-          <h3>Our prices</h3>
-          <i class="fa-solid fa-heart fa-beat fa-2xl"></i>
-          <p>
-            Our prices are the lowest possible enabling us to make profits while
-            feeding correctly our handmade Ivorian producers. Our policy of
-            lower prices is suitable to both our producers and our customers .
-          </p>
-          <a class="b_cart" href="http://">Promo</a>
-        </article>
+      <section class="banner">
 
-        <article class="cart">
-          <h3>SALES</h3>
-          <i class="fa-regular fa-face-smile fa-beat fa-2xl"></i>
-          <p>
-            Every month we enable us to do some big sales based on the high
-            volume of products we may have. So that our producers could sale
-            their surplus of products
-          </p>
-          <a class="b_cart" href="http://">SALES</a>
-        </article>
+    <div class="banner_img">
+      <a class="b_banner" href="http://">Warm welcome in the market !</a>
+
+    </div>
+
       </section>
 
-      <h1>Côte d'Ivoire Shopping</h1>
+      <section class="emoji">
+        
+        <h2 id="id_values">Our values</h2>
+
+        <div class="div_cart">
+
+          <article class="cart">
+            <h3>Our history</h3>
+
+              <i class="fa-solid fa-store fa-beat fa-2xl"></i>
+            
+            <p>
+              This store is specialised in handmade products by Ivorian producers.
+              Everything here is direct without
+              intermediary in sales circuit.
+            </p>
+            <a class="b_cart" href="http://">History</a>
+          </article>
+  
+          <article class="cart">
+            <h3>Our prices</h3>
+            <i class="fa-solid fa-heart fa-beat fa-2xl"></i>
+            <p>
+              These prices are the lowest possible enabling this store to make profits while
+              feeding correctly the handmade Ivorian producers. This policy of
+              lower prices is suitable to both producers and customers .
+            </p>
+            <a class="b_cart" href="http://">Promo</a>
+          </article>
+  
+          <article class="cart">
+            <h3>SALES</h3>
+            <i class="fa-regular fa-face-smile fa-beat fa-2xl"></i>
+            <p>
+              Every month there are big sales based on the high
+              volume of products the store may have. So the producers could sale
+              their surplus of products.
+            </p>
+            <a class="b_cart" href="http://">SALES</a>
+          </article>
+
+        </div>
+        
+      </section>
+
+      <h1>I Shop as much as I want !</h1>
 
       <section id="shopping">
-        <h2>Cocoa</h2>
-        <div id="cocoa">
+        
+        <div id="cocoa" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
           <article id="choco_powder" class="shopping_cocoa">
-            <p>Our chocolate powder is perfect for your morning's hot chocolate. It is a real, smooth and delicious one that is ranked by our customers one of the best online, so why don't you want to give it a try?</p>
+            <h2>Cocoa</h2>
+            <p>Our chocolate powder is perfect for your morning's hot chocolate.</p>
             <a class="b_article" href="http://">Promo</a>
           </article>
 
@@ -121,17 +144,12 @@
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
-          <article id="choco_powder5" class="shopping_cocoa">
-            <img src="images\IvoirChoco.jpg" alt="Image Cocoa powder Ivoir" />
-            <h3>15 €</h3>
-            <h3>Ivoirian Cocoa basket</h3>
-            <a class="b_article" href="http://">Get it !</a>
-          </article>
-
         </div>
 
         <h2>Chocolate</h2>
-        <div id="chocolate">
+        <div id="chocolate" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1500">
           <article id="chocolate1" class="shopping_chocolate">
             <img src="" alt="" />
             <p>Our chocolate tablets are perfect for your morning's jogging sport. They are so delicious one that they are ranked one of the best by our customers  online, so why don't you give it a try?</p>
@@ -162,81 +180,115 @@
         </div>
 
         <h2>Attiéké</h2>
-        <div id="attiéké">
-          <article id="attiéké1" class="shopping">
+        <div id="attieke" data-aos="zoom-in-down" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+          <article id="attieke1" class="shopping_attieke">
             <img src="" alt="" />
-            <h3>4 €</h3>
-            <h3>Attiéké</h3>
-            <a class="b_article" href="http://">Get it !</a>
+            <p>Our "Attiéké" is a perfect dish for your either lunch or dinner. It is so delicious that it is ranked one of the best by our customers online, so why don't you give it a try?</p>
+            <a class="b_article" href="http://">Promo</a>
           </article>
 
-          <article id="attiéké2" class="shopping">
-            <img src="" alt="" />
+          <article id="attieke2" class="shopping_attieke">
+            <img src="images\Attieke-deshydrate-Abodjama.jpg" alt="Image Attiéké Attieke-déshydraté-Abodjama" />
             <h3>5 €</h3>
-            <h3>Attiéké</h3>
+            <h3>Attiéké Abodjama</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
-          <article id="attiéké3" class="shopping">
-            <img src="" alt="" />
+          <article id="attieke3" class="shopping_attieke">
+            <img src="images\attieke_choco.jpg" alt="Image Attiéké choco" />
             <h3>3 €</h3>
-            <h3>Attiéké</h3>
+            <h3>Attiéké choco</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
+
+          <article id="attieke4" class="shopping_attieke">
+            <img src="images\eburnie_attieke.jpeg" alt="Image Attiéké" />
+            <h3>3 €</h3>
+            <h3>Attiéké Eburnie</h3>
+            <a class="b_article" href="http://">Get it !</a>
+          </article>
+
         </div>
 
         <h2>Pepper</h2>
-        <div id="pepper">
-          <article id="pepper1" class="shopping">
+        <div id="pepper" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <article id="pepper1" class="shopping_pepper">
             <img src="" alt="" />
+            <p>Our pepper is a perfect seasoning for your pepper soup or general soup. It is so delicious that it is ranked one of the best by our customers online, so why don't you give it a try?</p>
+            <a class="b_article" href="http://">Promo</a>
+          </article>
+
+          <article id="pepper2" class="shopping_pepper">
+            <img src="images\rabe3.jpg" alt="Image pepper brand Yibè" />
             <h3>5 €</h3>
             <h3>Pepper</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
-          <article id="pepper2" class="shopping">
-            <img src="" alt="" />
+          <article id="pepper3" class="shopping_pepper">
+            <img src="images\piment_mako.jpeg" alt="Image pepper brand Mako" />
             <h3>5 €</h3>
             <h3>Pepper</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
-          <article id="pepper3" class="shopping">
-            <img src="" alt="" />
+          <article id="pepper4" class="shopping_pepper">
+            <img src="images\rabe4.jpg" alt="Image pepper brand Madame Rabé" />
             <h3>5 €</h3>
             <h3>Pepper</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
+
         </div>
 
         <h2>Chips</h2>
-        <div id="chips">
-          <article id="chips1" class="shopping">
+        <div id="chips" data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+
+          <article id="chips1" class="shopping_chips">
             <img src="" alt="" />
+            <p>Our Banana chips are a perfect appetite suppressant. Sugared, it is so delicious that it is ranked one of the best by our customers online, so why don't you give it a try?</p>
+            <a class="b_article" href="http://">Promo</a>
+          </article>
+
+          <article id="chips2" class="shopping_chips">
+            <img src="images\chips-salee-banane-plantin.jpg" alt="Image banana chips brand Number One" />
             <h3>Banana chips</h3>
             <h3>1 €</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
-          <article id="chips2" class="shopping">
-            <img src="" alt="" />
+          <article id="chips3" class="shopping_chips">
+            <img src="images\chips_banane.jpg" alt="Image banana chips brand Wacori" />
             <h3>Banana chips</h3>
             <h3>1 €</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
-          <article id="chips3" class="shopping">
-            <img src="" alt="" />
+          <article id="chips4" class="shopping_chips">
+            <img src="images\chips_ivoirien.jpg" alt="Image banana chips brand Mon chips" />
             <h3>Banana chips</h3>
             <h3>1 €</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
+
         </div>
+
       </section>
+
     </main>
 
     <footer>
       <p>© 2024 Côte d'Ivoire shopping</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+    </script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>

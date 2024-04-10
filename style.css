@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: #3d1901;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 a{
@@ -15,6 +21,7 @@ a{
 
 nav {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
 }
 
 #logo{
@@ -44,7 +51,8 @@ nav {
 nav #avatar {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 10%;
 }
 
 .link {
@@ -55,11 +63,16 @@ nav #avatar {
 }
 
 nav .link:hover {
-  color: #f47c00;
+  background-color: #f47c00;
+  color: white;
+  width: 30%;
+  height: auto;
+  padding: 18px;
+  border-radius: 8px;
 }
 
 ul{
-  font-size: 4vh;
+  font-size: 3vh;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -77,7 +90,7 @@ ul{
 .button.primary {
   background: #0bcf36;
   border: 2px solid #0bcf36;
-  height: 10%;
+  width: 110px;
 }
 .button.primary:hover {
   background: #f47c00;
@@ -88,32 +101,101 @@ ul{
 
 /* Main */
 
+/* Class Banner */
+
+.banner{
+  margin-bottom: 5%;
+}
+
+.banner img{
+  width: 50%;
+  height: auto;
+  position: absolute;
+}
+
+.banner_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 580px;
+  background-image: url("images/fruits.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.b_banner {
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #3d1901;
+  color: #3d1901;
+  background: white;
+  position: relative;
+  font-size: x-large;
+}
+.b_banner:hover{
+  background-color: #3d1901;
+  color: white;
+}
+
+.b_article {
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #3d1901;
+  color: #3d1901;
+  background: white;
+  position: relative;
+  font-size: x-large;
+}
+.b_article:hover{
+  background-color: #3d1901;
+  color: white;
+}
+
 /* Class Emoji */
 
 h1{
   text-align: center;
 }
 
+#id_values{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 .emoji{
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
-.emoji .cart{
-  width: 300px;
+.fa-2xl{
+  font-size: 3em!important;
+  line-height: .03125em;
+  vertical-align: -.1875em;
+}
+
+.div_cart{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.cart{
+  width: 20%;
   height: 400px;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  padding: 2%;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
   text-align: center;
-
 }
-.emoji .cart:hover{
+.cart:hover{
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
 }
 
@@ -132,22 +214,50 @@ h1{
 
 /* ID and Class shopping */
 
+
 #cocoa{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 3%;
+  padding-top: 5%;
+  gap: 2%;
 }
 
 #chocolate{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 3%;
+  padding-top: 5%;
+  gap: 2%;
+}
+
+#attieke{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+#pepper{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+#chips{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+#cocoa #choco_powder{
+  border: 1px solid #3d1901;
+  box-shadow: none;
 }
 
 #cocoa .shopping_cocoa{
   text-align: center;
-  width: 160px;
-  height: 300px;
+  width: 15%;
+  height: auto;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
@@ -161,8 +271,8 @@ h1{
 
 #chocolate .shopping_chocolate{
   text-align: center;
-  width: 280px;
-  height: 350px;
+  width: 10%;
+  height: auto;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
   border-radius: 16px;
   transition: all 0.5s ease-in-out;
@@ -174,8 +284,53 @@ h1{
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
 }
 
+#attieke .shopping_attieke{
+  text-align: center;
+  width: 10%;
+  height: auto;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  padding: 1%;
+}
+
+#attieke .shopping_attieke:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
+#pepper .shopping_pepper{
+  text-align: center;
+  width: 10%;
+  height: auto;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  padding: 1%;
+}
+
+#pepper .shopping_pepper:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
+#chips .shopping_chips{
+  text-align: center;
+  width: 10%;
+  height: auto;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  padding: 1%;
+}
+
+#chips .shopping_chips:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
 #shopping img{
-  width: 120px;
+  width: 10%;
   height: auto;
   object-fit: cover;
   overflow: hidden;
@@ -183,7 +338,23 @@ h1{
 }
 
 #chocolate img{
-  width: 120px;
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  border: 0.2px solid #3d1901;
+}
+
+#attieke img{
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  border: 0.2px solid #3d1901;
+}
+
+#pepper img{
+  width: 10%;
   height: auto;
   object-fit: cover;
   overflow: hidden;
@@ -194,30 +365,64 @@ h1{
   border: 0px;
 } 
 
-#shopping #choco_powder5 img{
-  width: 150px;
-  height: 140px;
-  object-fit: cover;
-  overflow: hidden;
-} 
-
 #chocolate2 img{
-  width: 250px;
-  height: 200px;
+  width: 10%;
+  height: auto;
 }
 
-.b_article {
-  border-radius: 4px;
-  padding: 8px 16px;
-  transition: all 0.5s ease-in-out;
-  border: 1px solid #3d1901;
-  color: #3d1901;
-  background: white;
+#attieke2 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
 }
-.b_article:hover{
-  background-color: #3d1901;
-  color: white;
+
+#attieke3 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
 }
+
+#attieke4 img{
+  width: 10%;
+  height: auto;
+}
+
+#pepper2 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
+}
+
+#pepper3 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
+}
+
+#pepper4 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
+}
+
+#chips2 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
+}
+
+#chips3 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
+}
+
+#chips4 img{
+  width: 10%;
+  height: auto;
+  border: 0px;
+}
+
 
 /* Footer */
 
