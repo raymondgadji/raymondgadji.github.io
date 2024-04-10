@@ -412,35 +412,44 @@ h1{
   border: 0.2px solid #3d1901;
 }
 
-#shopping #choco_powder3 img{
+#cocoa #choco_powder3 img{
   border: 0px;
+  width: 120px;
+  height: 150px;
+} 
+
+#choco_powder4 img{
+  border: 0px;
+  width: 120px;
+  height: 150px;
 } 
 
 #chocolate2 img{
-  width: 70%;
-  height: 50%;
+  width: 120px;
+  height: 160px;
+  border: 0px;
 }
 
 #attieke2 img{
-  width: 60%;
+  width: 200px;
   height: auto;
   border: 0px;
 }
 
 #attieke3 img{
-  width: 60%;
+  width: 150px;
   height: auto;
   border: 0px;
 }
 
 #attieke4 img{
-  width: 60%;
-  height: auto;
+  width: 150px;
+  height: 200px;
 }
 
 #pepper2 img{
-  width: 60%;
-  height: auto;
+  width: 120px;
+  height: 160px;
   border: 0px;
 }
 
@@ -451,14 +460,14 @@ h1{
 }
 
 #pepper4 img{
-  width: 60%;
-  height: auto;
+  width: 120px;
+  height: 160px;
   border: 0px;
 }
 
 #chips2 img{
-  width: 60%;
-  height: auto;
+  width: 120px;
+  height: 160px;
   border: 0px;
 }
 
@@ -469,8 +478,8 @@ h1{
 }
 
 #chips4 img{
-  width: 60%;
-  height: auto;
+  width: 120px;
+  height: 160px;
   border: 0px;
 }
 
