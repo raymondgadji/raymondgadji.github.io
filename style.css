@@ -48,6 +48,24 @@ nav {
   border: #f47c00 solid 3px;
 }
 
+.testimony .avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: #0bcf36 solid 3px;
+  transition: all 0.5s ease-in-out;
+}
+.testimony .avatar:hover {
+  border: #f47c00 solid 3px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 nav #avatar {
   display: flex;
   align-items: center;
@@ -169,7 +187,8 @@ h1{
 
 #id_testimony{
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
+  margin-top: 5%;
 }
 
 .emoji{
@@ -472,7 +491,6 @@ padding-bottom: 38%;
 }
 
 
-
 #chocolate .shopping_chocolate{
   text-align: center;
   width: 15%;
@@ -655,10 +673,6 @@ footer {
   gap: 7%;
   transition: all 0.5s ease-in-out;
 }
-footer:hover {
-  color: #3d1901;
-  background-color: white;
-}
 
 footer #foot1{
   display: flex;
@@ -703,6 +717,5 @@ footer #foot_socials .socio{
 footer a{
   color: white;
 }
-footer a:hover{
-  color: #3d1901;
-}
+
+
