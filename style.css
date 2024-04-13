@@ -153,6 +153,7 @@ ul{
 .b_article:hover{
   background-color: #3d1901;
   color: white;
+  border: 1px solid white;
 }
 
 /* Class Emoji */
@@ -166,6 +167,11 @@ h1{
   margin-bottom: 5%;
 }
 
+#id_testimony{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 .emoji{
   overflow: hidden;
   display: flex;
@@ -173,6 +179,76 @@ h1{
   justify-content: center;
   align-items: center;
   padding-bottom: 5%;
+}
+
+.testimony{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15%;
+}
+
+.h2_contact{
+  text-align: center;
+}
+
+#contact{
+  display: flex;
+  width: 40%;
+  height: auto;
+  padding: 3%;
+  border: 2px solid #3d1901;
+  border-radius: 16px;
+  margin-top: 14%;
+  display: block;
+  margin: auto;
+}
+
+.div_contact{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.div_name{
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.div_mail{
+  display: flex;
+  justify-content: center;
+  gap: 63px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.div_msg{
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+
+.contact_button{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
 }
 
 .fa-2xl{
@@ -197,6 +273,22 @@ h1{
 }
 .cart:hover{
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
+}
+
+.cart h3{
+  margin-bottom: 20%;
+}
+.cart #cart1{
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+.cart #cart2{
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+.cart #cart3{
+  padding-top: 10%;
+  padding-bottom: 22%;
 }
 
 .b_cart {
@@ -256,9 +348,43 @@ h1{
 }
 
 #choco_powder{
-  background: #3d1901;
+  background-color: #3d1901;
   color: white;
 }
+
+#choco_powder p{
+padding-top: 20%;
+padding-bottom: 38%;
+}
+
+#chocolate1 p{
+  padding-top: 15%;
+  padding-bottom: 25%;
+}
+
+#attieke1 p{
+  padding-top: 28%;
+  padding-bottom: 38%;
+}
+
+#pepper1 p{
+  padding-top: 15%;
+  padding-bottom: 25%;
+}
+
+#chips1 p{
+  padding-top: 18%;
+  padding-bottom: 28%;
+}
+/*
+#choco_powder{
+  color: white;
+  opacity: 90%;
+  background-image: url("images/cab3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
 
 #chocolate1{
   background: #3d1901;
@@ -319,6 +445,33 @@ h1{
 #cocoa .shopping_cocoa:hover{
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);
 }
+
+#cocoa .shopping_cocoa h3{
+    margin: 5px;
+    padding-bottom: 17px;
+}
+
+#choco_powder3 #h3_choco_powder3{
+  margin-bottom: 14px;
+}
+
+#choco_powder4 #h3_choco_powder4{
+  margin-bottom: 15px;
+}
+
+#chocolate2 #h3_chocolate2{
+  padding-bottom: 12px;
+}
+
+#chocolate3 #h3_chocolate3{
+  padding-bottom: 13px;
+}
+
+#chocolate4 #h3_chocolate4{
+  padding-bottom: 10px;
+}
+
+
 
 #chocolate .shopping_chocolate{
   text-align: center;
@@ -394,6 +547,10 @@ h1{
   object-fit: cover;
   overflow: hidden;
   border: 0.2px solid #3d1901;
+}
+
+#chocolate3 img{
+  height: 160px
 }
 
 #attieke img{
@@ -487,14 +644,65 @@ h1{
 /* Footer */
 
 footer {
+  margin-top: 10%;
   background-color: #f47c00;
   color: white;
+  width: auto;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 7%;
   transition: all 0.5s ease-in-out;
 }
 footer:hover {
   color: #3d1901;
   background-color: white;
+}
+
+footer #foot1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+footer #foot1 img{
+  width: 300px;
+  height: 200px;
+}
+
+footer #foot3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer #foot3 #p_foot3{
+  margin-bottom: 20%;
+}
+footer #foot3 #p2_foot3{
+  margin-top: 20%;
+}
+
+footer #foot_socials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer #foot_socials .socio{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+}
+
+footer a{
+  color: white;
+}
+footer a:hover{
+  color: #3d1901;
 }

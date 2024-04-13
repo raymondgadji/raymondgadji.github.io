@@ -48,7 +48,7 @@
             <a class="link" href="#chips">Chips</a>
           </li>
           <li>
-            <a class="link" href="#">Contact</a>
+            <a class="link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -76,7 +76,7 @@
 
               <i class="fa-solid fa-store fa-beat fa-2xl"></i>
             
-            <p>
+            <p id="cart1">
               This store is specialised in handmade products by Ivorian producers.
               Everything here is direct without
               intermediary in sales circuit.
@@ -87,7 +87,7 @@
           <article class="cart">
             <h3>Our prices</h3>
             <i class="fa-solid fa-heart fa-beat fa-2xl"></i>
-            <p>
+            <p id="cart2">
               These prices are the lowest possible enabling this store to make profits while
               feeding correctly the handmade Ivorian producers. This policy of
               lower prices is suitable to both producers and customers .
@@ -98,7 +98,7 @@
           <article class="cart">
             <h3>SALES</h3>
             <i class="fa-regular fa-face-smile fa-beat fa-2xl"></i>
-            <p>
+            <p id="cart3">
               Every month there are big sales based on the high
               volume of products the store may have. So the producers could sale
               their surplus of products.
@@ -125,22 +125,22 @@
 
           <article id="choco_powder2" class="shopping_cocoa">
             <img src="images\IvoirChoco10.jpg" alt="Image Cocoa powder ivoirienne" />
-            <h4>3 €</h4>
-            <h4>L'Ivoirienne hot chocolate</h4>
+            <h3>3 €</h3>
+            <h3>L'Ivoirienne hot chocolate</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
           <article id="choco_powder3" class="shopping_cocoa">
             <img src="images\daloa.jpg" alt="Image Cocoa powder Ivoir" />
             <h3>3 €</h3>
-            <h3>Daloa Cocoa powder</h3>
+            <h3 id="h3_choco_powder3">Daloa Cocoa powder</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
           <article id="choco_powder4" class="shopping_cocoa">
             <img src="images\IvoirChoco4.jpg" alt="Image Cocoa powder ivoirienne" />
-            <h4>5 €</h4>
-            <h4>Crispy cocoa beans</h4>
+            <h3>5 €</h3>
+            <h3 id="h3_choco_powder4">Crispy cocoa beans</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
@@ -158,23 +158,23 @@
           </article>
 
           <article id="chocolate2" class="shopping_chocolate">
-            <img src="images\EmmaChoco5.jpg" alt="" />
+            <img src="images\EmmaChoco5.jpg" alt="Image chocolate tablet" />
             <h3>2 €</h3>
-            <h3>Chocolate tablet</h3>
+            <h3 id="h3_chocolate2">Chocolate tablet</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
           <article id="chocolate3" class="shopping_chocolate">
-            <img src="images\IvoirChoco5.jpg" alt="" />
+            <img src="images\IvoirChoco5.jpg" alt="Image chocolate tablet" />
             <h3>2 €</h3>
-            <h3>Tablet chocolate</h3>
+            <h3 id="h3_chocolate3">Tablet chocolate</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
           <article id="chocolate4" class="shopping_chocolate">
-            <img src="images\Daloa2 copy.jpg" alt="" />
+            <img src="images\Daloa2 copy.jpg" alt="Image chocolate tablet" />
             <h3>2 €</h3>
-            <h3>Tablet chocolate</h3>
+            <h3 id="h3_chocolate4">Tablet chocolate</h3>
             <a class="b_article" href="http://">Get it !</a>
           </article>
 
@@ -280,10 +280,121 @@
 
       </section>
 
+      <section class="testimony">
+        
+        <h2 id="id_testimony">What do they think of us?</h2>
+
+        <div class="div_cart">
+
+          <article class="cart">
+            <h3>Rebecca</h3>
+
+              <i class="fa-solid fa-store fa-beat fa-2xl"></i>
+            
+            <p id="cart1">
+              This store is specialised in handmade products by Ivorian producers.
+              Everything here is direct without
+              intermediary in sales circuit.
+            </p>
+            <a class="b_cart" href="http://">History</a>
+          </article>
+  
+          <article class="cart">
+            <h3>Rudy</h3>
+            <i class="fa-solid fa-heart fa-beat fa-2xl"></i>
+            <p id="cart2">
+              These prices are the lowest possible enabling this store to make profits while
+              feeding correctly the handmade Ivorian producers. This policy of
+              lower prices is suitable to both producers and customers .
+            </p>
+            <a class="b_cart" href="http://">Promo</a>
+          </article>
+  
+          <article class="cart">
+            <h3>Bernice</h3>
+            <i class="fa-regular fa-face-smile fa-beat fa-2xl"></i>
+            <p id="cart3">
+              Every month there are big sales based on the high
+              volume of products the store may have. So the producers could sale
+              their surplus of products.
+            </p>
+            <a class="b_cart" href="http://">SALES</a>
+          </article>
+
+        </div>
+        
+      </section>
+
+      <section id="contact">
+
+        <form action="/contact_page" method="post">
+
+          <h2 class="h2_contact">Contact Us</h2>
+
+          <div class="div_contact">
+            <label for="first_name">First Name&nbsp;:</label>
+            <input type="text" id="first_name" name="user_first_name" />
+          </div>
+            
+
+          <div class="div_name">
+            <label for="name">Name&nbsp;:</label>
+            <input type="text" id="name" name="user_name" />
+          </div>
+
+          <div class="div_mail">
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </div>
+
+          <div class="div_msg">
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+
+        <div class="contact_button">
+          <button class="b_cart" type="submit">Envoyer le message</button>
+        </div>
+
+          </div>
+
+        </form>
+        
+      </section>
+
     </main>
 
     <footer>
-      <p>© 2024 Côte d'Ivoire shopping</p>
+
+      <div id="foot1">
+        Côte d'Ivoire Shopping <br>
+        7 route Assinie-Mafia <br>
+        Village d'Assinie <br> Côte d'Ivoire 
+        <div id="foot2">
+          <img src="images\assini.png" alt="Image Assinie map">
+        </div>
+
+      </div>
+
+      <div id="foot3">
+        <p id="p_foot3">Site made with</p> <i class="fa-solid fa-heart fa-beat fa-2xl"></i> <p id="p2_foot3"> by Ivorian</p>
+        <p>© 2024 Côte d'Ivoire Shopping</p>
+      </div>
+
+      <div id="foot_socials">
+        <p>Connect with us</p>
+        <div class="socio">
+          <a href="#"><i class="fa-brands fa-facebook fa-beat fa-2xl"></i></a>
+          
+          <a href="#"><i class="fa-brands fa-instagram fa-beat fa-2xl"></i></a>
+          
+          <a href="#"><i class="fa-brands fa-tiktok fa-beat fa-2xl"></i></a>
+          
+        </div>
+        
+
+      </div>
+
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
